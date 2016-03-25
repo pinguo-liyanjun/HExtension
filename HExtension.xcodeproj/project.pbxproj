@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DEE106821CA5405000E2B474 /* UITabBarController+SwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE106811CA5405000E2B474 /* UITabBarController+SwipeGesture.m */; };
 		DEE1E2BB1C97F34A00D4CDA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1E2BA1C97F34A00D4CDA9 /* main.m */; };
 		DEE1E2BE1C97F34A00D4CDA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1E2BD1C97F34A00D4CDA9 /* AppDelegate.m */; };
 		DEE1E2C11C97F34A00D4CDA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1E2C01C97F34A00D4CDA9 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DEE106801CA5405000E2B474 /* UITabBarController+SwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+SwipeGesture.h"; sourceTree = "<group>"; };
+		DEE106811CA5405000E2B474 /* UITabBarController+SwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+SwipeGesture.m"; sourceTree = "<group>"; };
 		DEE1E2B61C97F34A00D4CDA9 /* HExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE1E2BA1C97F34A00D4CDA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEE1E2BC1C97F34A00D4CDA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				DEFD03E81C98129F007BC46C /* UIColor+Extension.m */,
 				DEFD03EA1C981358007BC46C /* UIImage+Extension.h */,
 				DEFD03EB1C981358007BC46C /* UIImage+Extension.m */,
+				DEE106801CA5405000E2B474 /* UITabBarController+SwipeGesture.h */,
+				DEE106811CA5405000E2B474 /* UITabBarController+SwipeGesture.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				DEFD03EC1C981358007BC46C /* UIImage+Extension.m in Sources */,
 				DEE1E2DC1C97FC0800D4CDA9 /* NSData+Extension.m in Sources */,
 				DEE1E2D61C97F7EF00D4CDA9 /* NSFileManager+Extension.m in Sources */,
+				DEE106821CA5405000E2B474 /* UITabBarController+SwipeGesture.m in Sources */,
 				DEE1E2E51C9807DC00D4CDA9 /* UIApplication+Extension.m in Sources */,
 				DEE1E2DF1C98035B00D4CDA9 /* NSString+Extension.m in Sources */,
 			);
